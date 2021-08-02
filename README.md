@@ -24,6 +24,10 @@ In short, to build and install in one line:
 
     make build install
 
+or just simply:
+
+    make
+
 
 ## Uninstall
 

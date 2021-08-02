@@ -13,7 +13,9 @@
 proj = $(shell pwd)
 name = $(shell basename $(proj))
 
-install: build
+all: build install
+
+install:
 	ln -sF $(proj)/bin/run.sh /usr/local/bin/$(name)
 
 build:
